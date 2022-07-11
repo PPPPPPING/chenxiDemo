@@ -1,5 +1,7 @@
 package com.chenxi.huawei;
 
+import org.junit.Test;
+
 import java.util.*;
 
 /**
@@ -77,5 +79,14 @@ public class MingsRandomNum {
         for (Integer s : arrayList) {
             System.out.println(s + " ");
         }
+    }
+
+    @Test
+    public void randomTests(){
+        int a = 1;
+        int b = 2;
+        int i = (int) (Math.random()*(b-a+1)+a);
+        int n = (int) (Math.random()*2);
+        System.out.println(n);
     }
 }
