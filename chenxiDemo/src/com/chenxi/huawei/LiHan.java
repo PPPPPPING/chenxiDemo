@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 /**
  * @Author chenxi
- * @create 2022/6/27 20:07
+ * @Date 2022/6/27 20:07
  */
 
 

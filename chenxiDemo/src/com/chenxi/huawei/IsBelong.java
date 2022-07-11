@@ -1,16 +1,8 @@
 package com.chenxi.huawei;
 
-import org.junit.Test;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
-
 /**
  * @Author cxi
  * @Date 2022/7/11 10:48
- * <p>
  * 输入两个字符串s和t,判断t是否可以通过删除若干字符得到s，例如：“sdfgdfgabcfss”可以删除部分字符得到"bcss"
  */
 public class IsBelong {
