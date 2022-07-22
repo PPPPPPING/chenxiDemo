@@ -32,7 +32,9 @@ public class RepeatTest2 {
         }
     }
 
-    //查找重复的数字
+    /**
+     *     查找重复的数字
+     */
     public void check(int[] ints) {
         List list = new ArrayList();
         for (int i = 0; i < ints.length; i++) {

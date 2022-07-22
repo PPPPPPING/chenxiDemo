@@ -14,7 +14,7 @@ import java.util.Comparator;
  */
 public class MaxNum {
     public static void main(String[] args) {
-        System.out.println(combination(new int[]{50, 20, 1, 9, 7}));
+        System.out.println(combination(new int[]{5, 2, 1, 9, 7}));
     }
 
     public static String combination(int[] nums) {
@@ -29,7 +29,7 @@ public class MaxNum {
                 return (o2 + o1).compareTo(o1 + o2);
             }
         });
-
+        System.out.println("numStrArry"+Arrays.toString(numStrArray));
         String str = "";
         for (String s : numStrArray) {
             str += s;
@@ -39,6 +39,9 @@ public class MaxNum {
 
     @Test
     public void test(){
+
+        System.out.println(("a"+"c").compareTo("c"+"a"));
+        System.out.println(("c"+"a").compareTo("a"+"c"));
 
         /*如果指定的数与参数相等返回 0。
         如果指定的数小于参数返回 -1。

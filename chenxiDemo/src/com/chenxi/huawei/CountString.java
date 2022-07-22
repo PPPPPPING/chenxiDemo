@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * @author chenxi
+ * @author cxi
  * @date 2022/6/16 9:42
  * <p>
  * 编写一个函数，计算字符串中含有的不同字符的个数。字符在 ASCII 码范围内( 0~127 ，包括 0 和 127 )，换行表示结束符，不算在字符里。不在范围内的不作统计。多个相同的字符只计算一次
@@ -45,11 +45,6 @@ public class CountString {
     }
 
     public void count(String[] str) {
-//        for (String s: str){
-//            System.out.print(s);
-//        }
-//        输出数组
-//        System.out.println(Arrays.toString(str));
 //        数组的重复用集合去重
         List<String> list = new ArrayList<String>();
         for (int i = 0; i < str.length; i++) {
@@ -57,13 +52,11 @@ public class CountString {
                 list.add(str[i]);
             }
         }
-//        System.out.println(list);
         //集合转化为数组
         String[] strings = new String[list.size()];
         for (int i = 0; i < list.size(); i++) {
             strings[i] = list.get(i);
         }
-//        System.out.println(Arrays.toString(strings));
         for (String s : strings) {
             System.out.print(s);
         }

@@ -14,9 +14,9 @@ public class SentencesOpposite {
         String str = scanner.nextLine();
         String[] strings = str.split(" ");
         SentencesOpposite sentencesOpposite = new SentencesOpposite();
-        sentencesOpposite.Sentences(strings);
+        sentencesOpposite.sentences(strings);
     }
-    public void Sentences(String[] strings){
+    public void sentences(String[] strings){
         for (int i = 0; i < strings.length/2; i++) {
             String exchange = strings[i];
             strings[i] = strings[strings.length - i - 1];

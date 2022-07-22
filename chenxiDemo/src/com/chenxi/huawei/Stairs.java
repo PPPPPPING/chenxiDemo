@@ -7,7 +7,7 @@ package com.chenxi.huawei;
  * 一个台阶的数量为n，一步可以走一个，两个，三个台阶，走完n需要几种方法。
  */
 public class Stairs {
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         System.out.println(countWays(4));
     }
 

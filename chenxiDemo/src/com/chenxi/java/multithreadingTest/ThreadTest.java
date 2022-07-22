@@ -4,7 +4,6 @@ package com.chenxi.java.multithreadingTest;
  * @Author chenxi
  * @Date 2022/6/26 22:49
  */
-
 class Thread1 extends Thread{
     private String name;
     public Thread1(String name) {
@@ -19,11 +18,10 @@ class Thread1 extends Thread{
                 e.printStackTrace();
             }
         }
-
     }
 }
-public class ThreadTest {
 
+public class ThreadTest {
     public static void main(String[] args) {
         Thread1 mTh1=new Thread1("A");
         Thread1 mTh2=new Thread1("B");
@@ -31,5 +29,4 @@ public class ThreadTest {
         mTh2.start();
 
     }
-
 }

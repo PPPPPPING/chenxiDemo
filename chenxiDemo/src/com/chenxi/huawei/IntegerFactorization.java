@@ -34,13 +34,16 @@ public class IntegerFactorization {
     }
     public static void factorization(int n) {
         List list = new ArrayList();
-        for (int i = 2; i <= n; i++) {  //只检查平方根范围内数即可
+
+        //只检查平方根范围内数即可
+        for (int i = 2; i <= n; i++) {
             if (n % i == 0) {
                 list.add(i);
                 n = n / i;
                 i--;
             }
         }
+
         for (Object list1: list){
             System.out.print(list1+" ");
         }

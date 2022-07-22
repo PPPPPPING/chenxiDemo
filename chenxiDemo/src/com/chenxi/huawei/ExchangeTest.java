@@ -1,9 +1,11 @@
 package com.chenxi.huawei;
-
+/**
+ * @author cxi
+ * @date 2022/6/15 15:14
+ */
 public class ExchangeTest {
     public static void main(String[] args) {
-        ExchangeTest exchangeTest = new ExchangeTest();
-        exchangeTest.moveZeroes(new int[]{1, 0, 3, 3, 0, 0, 5, 4, 0, 3, 1, 2});
+        moveZeroes(new int[]{1, 0, 3, 3, 0, 0, 5, 4, 0, 3, 1, 2});
     }
 
     public static void moveZeroes(int[] nums) {
