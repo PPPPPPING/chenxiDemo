@@ -8,7 +8,6 @@ public class ScannerTest {
         System.out.println("请输入你想要的数字（1到9）");
         // int num=x.nextInt();
         String a = x.next();
-
         for (char c : a.toCharArray()) {
             if (Character.isDigit(c)) {
                 int num = Integer.parseInt(a.trim());
@@ -17,7 +16,6 @@ public class ScannerTest {
                     System.out.println("数字变成字母为：" + c2);
                 } else {
                     System.out.println("您输入的数字不合法：");
-
                 }
             } else if (Character.isLetter(c)) {
                 String shuzi = a.substring(1);

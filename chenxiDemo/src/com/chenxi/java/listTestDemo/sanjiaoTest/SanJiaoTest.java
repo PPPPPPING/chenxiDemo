@@ -17,7 +17,7 @@ public class SanJiaoTest {
                 System.out.println("边长abc分别为：" + a + "|" + b + "|" + c);
             } else {
                 try {
-                    throw IllegalArgueException();
+                    System.out.println(a + "|" + b + "|" + c+"不能构成三角形!");
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -25,11 +25,5 @@ public class SanJiaoTest {
         } catch (IllegalArgumentException e) {
             e.printStackTrace();
         }
-
     }
-    private Exception IllegalArgueException() {
-        System.out.println("不能构成三角形");
-        return null;
-    }
-
 }

@@ -1,6 +1,6 @@
 package com.chenxi.java.CommonTest;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * 包装类的使用
@@ -16,6 +16,5 @@ public class WrapperTest {
         Float f1 = new Float(f);
         System.out.println(f1);
     }
-
 
 }
