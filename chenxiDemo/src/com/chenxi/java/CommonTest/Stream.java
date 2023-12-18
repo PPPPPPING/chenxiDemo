@@ -16,7 +16,7 @@ public class Stream {
         // 原始的List
 //            List<String> names = new ArrayList<>("三", "李四哦", "王五王五", "赵六");
         List<String> names = new ArrayList<>();
-        names.add("三");
+        names.add("三三");
         names.add("李四哦");
         names.add("王五王五");
         names.add("赵六");
