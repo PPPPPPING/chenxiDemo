@@ -42,9 +42,8 @@ public class JumpGame55 {
     @Test
     public void gitTest() {
         System.out.println("feature-KJSD-2 update");
-        System.out.println("feature-KJSD-1 update");
-        System.out.println("feature-KJSD-1 update1");
-        System.out.println("回退到这个版本");
+        System.out.println("feature-KJSD-2 update 1");
+        System.out.println("feature-KJSD-2 update 2");
     }
 
 
