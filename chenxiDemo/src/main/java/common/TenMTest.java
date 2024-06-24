@@ -14,6 +14,7 @@ public class TenMTest {
             tenM(2);
             System.out.println();
         }
+        System.out.println("git stash");
     }
 
     public static void tenM(int n) {
