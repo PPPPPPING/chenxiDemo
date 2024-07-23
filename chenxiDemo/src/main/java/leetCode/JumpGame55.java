@@ -48,6 +48,7 @@ public class JumpGame55 {
         System.out.println("feature-KJSD-2 update 2");
         System.out.println("1D");
         System.out.println("2E");
+        System.out.println("3E");
     }
 
 
