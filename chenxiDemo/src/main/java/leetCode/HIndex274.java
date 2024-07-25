@@ -42,7 +42,5 @@ public class HIndex274 {
 //        int[] intArr = new int[]{1, 3, 1};
         System.out.println(hIndex(intArr));
         System.out.println(111);
-        System.out.println(222);
-        System.out.println(333);
     }
 }
